@@ -3,12 +3,12 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Inter", sans-serif;
-  background-color: rgba(255, 237, 225);
+  background-color: rgba(244, 216, 205);
 }
 
 header,
 main {
-  width: 50%;
+  width: 60%;
 }
 
 ul {
@@ -45,7 +45,7 @@ header {
   padding: 10px 0;
   border-radius: 20px;
   color: aliceblue;
-  background-color: rgba(145, 120, 93, 0.8);
+  background-color: rgba(24, 2, 12, 0.8);
   text-align: center;
 }
 
@@ -84,11 +84,11 @@ header h3 {
   padding: 10px 20px;
   margin-bottom: 10px;
   color: aliceblue;
-  background-color: rgba(157, 92, 99, 0.8);
+  background-color: rgba(81, 75, 35, 0.8);
 }
 .educ {
   color: aliceblue;
-  background-color: rgba(45, 35, 46, 0.8);
+  background-color: rgba(72, 130, 134, 0.8);
   border-radius: 20px;
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -103,7 +103,7 @@ header h3 {
   padding: 10px 20px;
   margin-bottom: 10px;
   color: aliceblue;
-  background-color: rgba(134, 157, 122, 0.8);
+  background-color: rgba(179, 106, 94, 0.8);
 }
 
 .achievements {
@@ -111,5 +111,5 @@ header h3 {
   padding: 10px 20px;
   margin-bottom: 10px;
   color: aliceblue;
-  background-color: rgba(86, 98, 70, 0.8);
+  background-color: rgba(166, 58, 80, 0.8);
 }
