@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Inter", sans-serif;
-  background-color: rgba(244, 216, 205);
+  background-color: rgba(241, 222, 222);
 }
 
 a {
@@ -48,7 +48,7 @@ header {
   padding: 10px 0;
   border-radius: 20px;
   color: white;
-  background-color: rgba(24, 2, 12, 0.8);
+  background-color: rgba(19, 41, 61, 0.8);
   text-align: center;
 }
 
@@ -95,14 +95,6 @@ header h2 {
   padding: 10px 20px;
   margin-bottom: 10px;
 }
-.lists-container {
-  display: flex;
-}
-
-.left-lists,
-.right-lists {
-  width: 50%;
-}
 
 .skills {
   border-radius: 20px;
@@ -118,4 +110,13 @@ header h2 {
   margin-bottom: 10px;
   color: white;
   background-color: rgba(166, 58, 80, 0.8);
+}
+
+.lists-container {
+  display: flex;
+}
+
+.left-lists,
+.right-lists {
+  width: 50%;
 }
