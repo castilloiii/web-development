@@ -121,22 +121,6 @@ header h2 {
   width: 50%;
 }
 
-@media screen and (max-width: 1080px) {
-  header,
-  main {
-    width: 90%;
-    font-size: 0.9em;
-  }
-
-  ul {
-    padding-left: 20px;
-  }
-
-  p {
-    padding: 0 10px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   header,
   main {
