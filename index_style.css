@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -9,18 +14,6 @@ body {
 a {
   text-decoration: none;
   color: white;
-}
-
-nav img {
-  width: 50px;
-  margin: 10px;
-  opacity: 0.8;
-  filter: invert(1);
-  cursor: pointer;
-}
-
-nav img:hover {
-  opacity: 1;
 }
 
 h2,
@@ -50,6 +43,19 @@ header {
   color: white;
   background-color: rgba(19, 41, 61, 0.8);
   text-align: center;
+}
+
+nav img {
+  width: 50px;
+  margin: 10px;
+  opacity: 0.8;
+  filter: invert(1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav img:hover {
+  opacity: 1;
 }
 
 h1 {
