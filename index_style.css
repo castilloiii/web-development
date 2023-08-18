@@ -3,6 +3,11 @@
   src: url(fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+  transition: 5s;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -14,6 +19,26 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  width: 90%;
+  border-bottom: solid;
+  font-size: 0.9em;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+.nav li {
+  list-style: none;
 }
 
 h2,
@@ -33,11 +58,20 @@ main {
   width: 60%;
 }
 
+header,
+.about,
+.educ,
+.achievements,
+.skills {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 10px 0;
   border-radius: 20px;
   color: white;
@@ -48,7 +82,7 @@ header {
 nav img {
   width: 50px;
   margin: 10px;
-  opacity: 0.8;
+  opacity: 0.5;
   filter: invert(1);
   cursor: pointer;
   transition: 0.3s;
@@ -56,6 +90,7 @@ nav img {
 
 nav img:hover {
   opacity: 1;
+  transform: scale(1.2);
 }
 
 h1 {
@@ -87,33 +122,30 @@ header h2 {
   filter: invert(1);
 }
 
-.about {
+.about,
+.educ,
+.skills,
+.achievements {
   border-radius: 20px;
   padding: 10px 20px;
-  margin-bottom: 10px;
-  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.about {
+  color: white;
   background-color: rgba(81, 75, 35, 0.8);
 }
 .educ {
   color: white;
   background-color: rgba(72, 130, 134, 0.8);
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin-bottom: 10px;
 }
 
 .skills {
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin-bottom: 10px;
   color: white;
   background-color: rgba(179, 106, 94, 0.8);
 }
 
 .achievements {
-  border-radius: 20px;
-  padding: 10px 20px;
-  margin-bottom: 10px;
   color: white;
   background-color: rgba(166, 58, 80, 0.8);
 }
